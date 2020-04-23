@@ -1,0 +1,26 @@
+---
+title: "Professional Athletes: Skill Vs. Pay"
+author: "Charles Fiscella"
+date: "4/23/2020"
+output: word_document
+---
+
+## Summary 
+
+The problem that I am trying to address with my project is that some professional athletes will get paid a crazy high salary simply because their name may be big and they may be the face of the team they play for. My goal is to analyze certain players from Professional sport organizations and see if their pay is based on how good they actually are with their stats and also if they start having a gradual decline with their stats and performance, will their poor performance have an impact on their pay. The main research question that I am trying to address is "Do athletes get paid more simply because of their name and because the fans love them or is it based on their performance?". I got my data through different online resources that specialize in sports statistics in all categories of sports from professional organizations. I will be using R to go through and analyze the data, exploring any athletes who may have a large salary but have also possibly had a slight decline from years past and are still getting paid the same salary or may have a bigger salary now. ***
+
+## Introduction
+
+Professional sports, we all watch them. From soccer to baseball we all have that favorite team or player that we like to watch. However, some of these players are getting a crazy amount of money even if they don't perform the greatest of their ability. Do players get paid based on their name and how they make a team look? Or do these players get paid based on their statistics and their past accomplishments? These questions will both be explored in my project. I wil be analyzing data from different sports statistics sites and using this data to determine which of these questions is true. 
+
+## Data
+
+```{r,include=false}
+install.packages('csv')
+MLBStats <- read.csv("FanGraphs Leaderboard.csv")
+```
+
+
+
+
+
